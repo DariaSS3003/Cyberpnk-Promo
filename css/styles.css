@@ -31,6 +31,7 @@ aside {
 
 html,
 body {
+    font-family: 'RobotoRegular', Arial, sans-serif;
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -100,7 +101,33 @@ h6 {
     font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: 'RobotoLight';
+    src: url("../fonts/MiConv.com__Roboto-Light.woff2") format('woff2'),
+        url("fonts/MiConv.com__Roboto-Light.woff") format('woff');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url("fonts/MiConv.com__Roboto-Regular.woff2") format('woff2'),
+        url("fonts/MiConv.com__Roboto-Regular.woff") format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("fonts/MiConv.com__Roboto-Bold.woff2") format('woff2'),
+        url("fonts/MiConv.com__Roboto-Bold.woff") format('woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
 /* Color */
 
 
@@ -130,14 +157,14 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto';
+    font-family: 'RobotoBold';
     font-size: 24px;
     font-weight: 700;
     color: var(--main-2);
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: 'RobotoRegular';
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -149,7 +176,7 @@ button {
 }
 
 .color-text {
-    font-family: 'Roboto';
+    font-family: 'RobotoBold';
     font-size: 18px;
     font-weight: 700;
     color: var(--main-2);
@@ -333,7 +360,7 @@ button {
 }
 
 #form-file {
-    font-family: 'Roboto';
+    font-family: 'RobotoRegular';
     background-color: var(--text-1);
     font-size: 18px;
     border: var(--text-3) 2px dashed;
@@ -843,9 +870,8 @@ button {
     }
 
     .stock__consent {
-        font-family: 'Roboto';
+        font-family: 'RobotoLight';
         font-size: 12px;
-        font-weight: 300;
         line-height: 14px;
     }
 
