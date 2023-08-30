@@ -248,6 +248,7 @@ button {
 }
 
 .main__button {
+    font-family: 'RobotoBold';
     font-size: 24px;
     display: inline-block;
     background-color: var(--text-1);
@@ -591,6 +592,12 @@ button {
         max-width: 952px;
     }
 
+    /* Chapter 1 */
+
+    .main__button {
+        max-width: 272px;
+    }
+
     /* Chapter 2 */
     .description__gallery {
         display: grid;
@@ -742,6 +749,7 @@ button {
     }
 
     .main__button {
+        font-family: 'RobotoBold';
         font-size: 20px;
         max-width: 244px;
     }
