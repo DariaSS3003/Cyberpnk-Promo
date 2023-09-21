@@ -41,7 +41,6 @@ body {
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 input,
@@ -302,6 +301,12 @@ button {
 /* Chapter 3 */
 .border-1 {
     display: block;
+}
+.border-1 img {
+    display: block;
+    height: 70px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .border-1-320 {
